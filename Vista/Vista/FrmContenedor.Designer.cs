@@ -29,33 +29,25 @@
         private void InitializeComponent()
         {
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
-            this.BtnCerrar = new System.Windows.Forms.ToolStripButton();
-            this.BtnNormal = new System.Windows.Forms.ToolStripButton();
-            this.BtnMaximizar = new System.Windows.Forms.ToolStripButton();
-            this.BtnMinimizar = new System.Windows.Forms.ToolStripButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnReportes = new System.Windows.Forms.Button();
+            this.BtnFacturacion = new System.Windows.Forms.Button();
+            this.BtnInventario = new System.Windows.Forms.Button();
+            this.BtnAdministracion = new System.Windows.Forms.Button();
+            this.BtnConfiguracion = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.sistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mostrarPanelSidebarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.administraciónDeEmpleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.inventarioToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.facturaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reportesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.configuraciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuPpalSistema = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuPpalMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuAdministracion = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuInventario = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuFacturacion = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuReportes = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuConfiguracion = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuPpalReportes = new System.Windows.Forms.ToolStripMenuItem();
             this.ventasRealizadasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registroDeVentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.facturasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,16 +55,14 @@
             this.delDiaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inventarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuPpalAyuda = new System.Windows.Forms.ToolStripMenuItem();
             this.verAyudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.datosTécnicosDelSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeFHITRSistemaCentralToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.reportarErrorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.configuraciónDeConexiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.PanelContenedor = new System.Windows.Forms.Panel();
             this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.Lblusuario = new System.Windows.Forms.ToolStripLabel();
             this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
@@ -81,23 +71,62 @@
             this.LblAcceso = new System.Windows.Forms.ToolStripLabel();
             this.PanelConfiguracion = new System.Windows.Forms.Panel();
             this.PanelAdministración = new System.Windows.Forms.Panel();
-            this.PanelInventario = new System.Windows.Forms.Panel();
+            this.PanelProductos = new System.Windows.Forms.Panel();
             this.PanelFacturacion = new System.Windows.Forms.Panel();
             this.PanelReportes = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.BtnEmpleados = new System.Windows.Forms.Button();
+            this.BtnSucursales = new System.Windows.Forms.Button();
+            this.BtnRegProductos = new System.Windows.Forms.Button();
+            this.BtnRepFactPeriodo = new System.Windows.Forms.Button();
+            this.BtnFactDia = new System.Windows.Forms.Button();
+            this.BtnRepCompras = new System.Windows.Forms.Button();
+            this.BtnRepVentas = new System.Windows.Forms.Button();
+            this.BtnRepFactDia = new System.Windows.Forms.Button();
+            this.BtnRepInv = new System.Windows.Forms.Button();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.MenuSistemaConexion = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuSistemaCerrarSesion = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuSistemaSalir = new System.Windows.Forms.ToolStripMenuItem();
+            this.mostrarPanelSidebarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.BtnCerrar = new System.Windows.Forms.ToolStripButton();
+            this.BtnNormal = new System.Windows.Forms.ToolStripButton();
+            this.BtnMaximizar = new System.Windows.Forms.ToolStripButton();
+            this.BtnMinimizar = new System.Windows.Forms.ToolStripButton();
+            this.BtnCategorias = new System.Windows.Forms.Button();
+            this.PanelInventario = new System.Windows.Forms.Panel();
+            this.BtnInvSucursal = new System.Windows.Forms.Button();
+            this.BtnInvGeneral = new System.Windows.Forms.Button();
+            this.BtnGestionProductos = new System.Windows.Forms.Button();
+            this.MenuAdmonEmpleados = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuAdmonSucursales = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuGestion = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuGestionRegProductos = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuGestCategorias = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuInvGeneral = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuInvSucursal = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuFactPeriodo = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuFactDia = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuRepLibroCompras = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuRepLibroVentas = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuRepFactDia = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuRepInvGral = new System.Windows.Forms.ToolStripMenuItem();
+            this.configuraciónDelSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.BtnFacturar = new System.Windows.Forms.Button();
+            this.MenuRepFactFechas = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
-            this.panel4.SuspendLayout();
+            this.PanelContenedor.SuspendLayout();
             this.PanelConfiguracion.SuspendLayout();
             this.PanelAdministración.SuspendLayout();
+            this.PanelProductos.SuspendLayout();
+            this.PanelFacturacion.SuspendLayout();
+            this.PanelReportes.SuspendLayout();
             this.PanelInventario.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -118,15 +147,6 @@
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = global::Vista.Properties.Resources.sabores_de_la_casa;
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton1.Text = "toolStripButton1";
-            // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
@@ -144,49 +164,9 @@
             this.toolStripLabel2.Size = new System.Drawing.Size(114, 22);
             this.toolStripLabel2.Text = "Formulario principal";
             // 
-            // BtnCerrar
-            // 
-            this.BtnCerrar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnCerrar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.BtnCerrar.Image = global::Vista.Properties.Resources.cancel_button;
-            this.BtnCerrar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.BtnCerrar.Name = "BtnCerrar";
-            this.BtnCerrar.Size = new System.Drawing.Size(23, 22);
-            this.BtnCerrar.Text = "toolStripButton2";
-            // 
-            // BtnNormal
-            // 
-            this.BtnNormal.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnNormal.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.BtnNormal.Image = global::Vista.Properties.Resources.full_screen_exit;
-            this.BtnNormal.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.BtnNormal.Name = "BtnNormal";
-            this.BtnNormal.Size = new System.Drawing.Size(23, 22);
-            this.BtnNormal.Text = "toolStripButton3";
-            // 
-            // BtnMaximizar
-            // 
-            this.BtnMaximizar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnMaximizar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.BtnMaximizar.Image = global::Vista.Properties.Resources.switch_to_full_screen_button;
-            this.BtnMaximizar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.BtnMaximizar.Name = "BtnMaximizar";
-            this.BtnMaximizar.Size = new System.Drawing.Size(23, 22);
-            this.BtnMaximizar.Text = "toolStripButton4";
-            // 
-            // BtnMinimizar
-            // 
-            this.BtnMinimizar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnMinimizar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.BtnMinimizar.Image = global::Vista.Properties.Resources.round_delete_button;
-            this.BtnMinimizar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.BtnMinimizar.Name = "BtnMinimizar";
-            this.BtnMinimizar.Size = new System.Drawing.Size(23, 22);
-            this.BtnMinimizar.Text = "toolStripButton5";
-            // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.panel4);
+            this.panel2.Controls.Add(this.PanelContenedor);
             this.panel2.Controls.Add(this.toolStrip2);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.menuStrip1);
@@ -198,199 +178,199 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(227)))), ((int)(((byte)(227)))));
-            this.panel3.Controls.Add(this.button5);
-            this.panel3.Controls.Add(this.button4);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Controls.Add(this.button1);
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(52)))), ((int)(((byte)(74)))));
+            this.panel3.Controls.Add(this.BtnReportes);
+            this.panel3.Controls.Add(this.BtnFacturacion);
+            this.panel3.Controls.Add(this.BtnGestionProductos);
+            this.panel3.Controls.Add(this.BtnInventario);
+            this.panel3.Controls.Add(this.BtnAdministracion);
+            this.panel3.Controls.Add(this.BtnConfiguracion);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 24);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(205, 681);
             this.panel3.TabIndex = 1;
             // 
-            // button5
+            // BtnReportes
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(99)))), ((int)(((byte)(207)))));
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(3, 155);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(199, 33);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "Reportes";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = false;
+            this.BtnReportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(99)))), ((int)(((byte)(207)))));
+            this.BtnReportes.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnReportes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnReportes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnReportes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnReportes.ForeColor = System.Drawing.Color.White;
+            this.BtnReportes.Location = new System.Drawing.Point(3, 147);
+            this.BtnReportes.Name = "BtnReportes";
+            this.BtnReportes.Size = new System.Drawing.Size(199, 35);
+            this.BtnReportes.TabIndex = 2;
+            this.BtnReportes.Text = "Reportes";
+            this.BtnReportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnReportes.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // BtnFacturacion
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(99)))), ((int)(((byte)(207)))));
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(3, 117);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(199, 33);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "Facturación";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = false;
+            this.BtnFacturacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(99)))), ((int)(((byte)(207)))));
+            this.BtnFacturacion.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnFacturacion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnFacturacion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnFacturacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnFacturacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnFacturacion.ForeColor = System.Drawing.Color.White;
+            this.BtnFacturacion.Location = new System.Drawing.Point(3, 111);
+            this.BtnFacturacion.Name = "BtnFacturacion";
+            this.BtnFacturacion.Size = new System.Drawing.Size(199, 35);
+            this.BtnFacturacion.TabIndex = 2;
+            this.BtnFacturacion.Text = "Facturación";
+            this.BtnFacturacion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnFacturacion.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // BtnInventario
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(99)))), ((int)(((byte)(207)))));
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(3, 79);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(199, 33);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Inventario";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = false;
+            this.BtnInventario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(99)))), ((int)(((byte)(207)))));
+            this.BtnInventario.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnInventario.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnInventario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnInventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnInventario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnInventario.ForeColor = System.Drawing.Color.White;
+            this.BtnInventario.Location = new System.Drawing.Point(3, 75);
+            this.BtnInventario.Name = "BtnInventario";
+            this.BtnInventario.Size = new System.Drawing.Size(199, 35);
+            this.BtnInventario.TabIndex = 2;
+            this.BtnInventario.Text = "Inventario";
+            this.BtnInventario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnInventario.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // BtnAdministracion
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(99)))), ((int)(((byte)(207)))));
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(3, 41);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(199, 33);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Administración";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = false;
+            this.BtnAdministracion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(99)))), ((int)(((byte)(207)))));
+            this.BtnAdministracion.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnAdministracion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnAdministracion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnAdministracion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAdministracion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAdministracion.ForeColor = System.Drawing.Color.White;
+            this.BtnAdministracion.Location = new System.Drawing.Point(3, 3);
+            this.BtnAdministracion.Name = "BtnAdministracion";
+            this.BtnAdministracion.Size = new System.Drawing.Size(199, 35);
+            this.BtnAdministracion.TabIndex = 2;
+            this.BtnAdministracion.Text = "Administración";
+            this.BtnAdministracion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnAdministracion.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // BtnConfiguracion
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(99)))), ((int)(((byte)(207)))));
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(199, 33);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Configuración";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = false;
+            this.BtnConfiguracion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(99)))), ((int)(((byte)(207)))));
+            this.BtnConfiguracion.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnConfiguracion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnConfiguracion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnConfiguracion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnConfiguracion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnConfiguracion.ForeColor = System.Drawing.Color.White;
+            this.BtnConfiguracion.Location = new System.Drawing.Point(3, 643);
+            this.BtnConfiguracion.Name = "BtnConfiguracion";
+            this.BtnConfiguracion.Size = new System.Drawing.Size(199, 35);
+            this.BtnConfiguracion.TabIndex = 2;
+            this.BtnConfiguracion.Text = "Configuración / Cerrar sesión";
+            this.BtnConfiguracion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnConfiguracion.UseVisualStyleBackColor = false;
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.sistemaToolStripMenuItem,
-            this.menuToolStripMenuItem,
-            this.reportesToolStripMenuItem,
-            this.ayudaToolStripMenuItem});
+            this.MenuPpalSistema,
+            this.MenuPpalMenu,
+            this.MenuPpalReportes,
+            this.MenuPpalAyuda});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1300, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // sistemaToolStripMenuItem
+            // MenuPpalSistema
             // 
-            this.sistemaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.configuraciónDeConexiónToolStripMenuItem,
-            this.cerrarSesiónToolStripMenuItem,
-            this.salirToolStripMenuItem});
-            this.sistemaToolStripMenuItem.Name = "sistemaToolStripMenuItem";
-            this.sistemaToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.sistemaToolStripMenuItem.Text = "Sistema";
+            this.MenuPpalSistema.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuSistemaConexion,
+            this.MenuSistemaCerrarSesion,
+            this.MenuSistemaSalir});
+            this.MenuPpalSistema.Name = "MenuPpalSistema";
+            this.MenuPpalSistema.Size = new System.Drawing.Size(60, 20);
+            this.MenuPpalSistema.Text = "Sistema";
             // 
-            // cerrarSesiónToolStripMenuItem
+            // MenuPpalMenu
             // 
-            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
-            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
-            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar sesión";
-            // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
-            this.salirToolStripMenuItem.Text = "Salir";
-            // 
-            // menuToolStripMenuItem
-            // 
-            this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuPpalMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mostrarPanelSidebarToolStripMenuItem,
-            this.administraciónDeEmpleadosToolStripMenuItem,
-            this.inventarioToolStripMenuItem1,
-            this.facturaciónToolStripMenuItem,
-            this.reportesToolStripMenuItem1,
-            this.configuraciónToolStripMenuItem});
-            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
-            this.menuToolStripMenuItem.Text = "Menu";
+            this.MenuAdministracion,
+            this.MenuGestion,
+            this.MenuInventario,
+            this.MenuFacturacion,
+            this.MenuReportes,
+            this.MenuConfiguracion});
+            this.MenuPpalMenu.Name = "MenuPpalMenu";
+            this.MenuPpalMenu.Size = new System.Drawing.Size(50, 20);
+            this.MenuPpalMenu.Text = "Menu";
             // 
-            // mostrarPanelSidebarToolStripMenuItem
+            // MenuAdministracion
             // 
-            this.mostrarPanelSidebarToolStripMenuItem.Image = global::Vista.Properties.Resources.menu_button;
-            this.mostrarPanelSidebarToolStripMenuItem.Name = "mostrarPanelSidebarToolStripMenuItem";
-            this.mostrarPanelSidebarToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
-            this.mostrarPanelSidebarToolStripMenuItem.Text = "Esconder barra de menu vertical";
+            this.MenuAdministracion.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuAdmonEmpleados,
+            this.MenuAdmonSucursales});
+            this.MenuAdministracion.Name = "MenuAdministracion";
+            this.MenuAdministracion.Size = new System.Drawing.Size(243, 22);
+            this.MenuAdministracion.Text = "Administración";
             // 
-            // administraciónDeEmpleadosToolStripMenuItem
+            // MenuInventario
             // 
-            this.administraciónDeEmpleadosToolStripMenuItem.Name = "administraciónDeEmpleadosToolStripMenuItem";
-            this.administraciónDeEmpleadosToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
-            this.administraciónDeEmpleadosToolStripMenuItem.Text = "Administración de empleados";
+            this.MenuInventario.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuInvGeneral,
+            this.MenuInvSucursal});
+            this.MenuInventario.Name = "MenuInventario";
+            this.MenuInventario.Size = new System.Drawing.Size(243, 22);
+            this.MenuInventario.Text = "Inventario";
             // 
-            // inventarioToolStripMenuItem1
+            // MenuFacturacion
             // 
-            this.inventarioToolStripMenuItem1.Name = "inventarioToolStripMenuItem1";
-            this.inventarioToolStripMenuItem1.Size = new System.Drawing.Size(243, 22);
-            this.inventarioToolStripMenuItem1.Text = "Inventario";
+            this.MenuFacturacion.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuFactPeriodo,
+            this.MenuFactDia});
+            this.MenuFacturacion.Name = "MenuFacturacion";
+            this.MenuFacturacion.Size = new System.Drawing.Size(243, 22);
+            this.MenuFacturacion.Text = "Facturación";
             // 
-            // facturaciónToolStripMenuItem
+            // MenuReportes
             // 
-            this.facturaciónToolStripMenuItem.Name = "facturaciónToolStripMenuItem";
-            this.facturaciónToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
-            this.facturaciónToolStripMenuItem.Text = "Facturación";
+            this.MenuReportes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuRepLibroCompras,
+            this.MenuRepLibroVentas,
+            this.MenuRepFactDia,
+            this.MenuRepInvGral,
+            this.MenuRepFactFechas});
+            this.MenuReportes.Name = "MenuReportes";
+            this.MenuReportes.Size = new System.Drawing.Size(243, 22);
+            this.MenuReportes.Text = "Reportes";
             // 
-            // reportesToolStripMenuItem1
+            // MenuConfiguracion
             // 
-            this.reportesToolStripMenuItem1.Name = "reportesToolStripMenuItem1";
-            this.reportesToolStripMenuItem1.Size = new System.Drawing.Size(243, 22);
-            this.reportesToolStripMenuItem1.Text = "Reportes";
+            this.MenuConfiguracion.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.configuraciónDelSistemaToolStripMenuItem});
+            this.MenuConfiguracion.Name = "MenuConfiguracion";
+            this.MenuConfiguracion.Size = new System.Drawing.Size(243, 22);
+            this.MenuConfiguracion.Text = "Configuración";
             // 
-            // configuraciónToolStripMenuItem
+            // MenuPpalReportes
             // 
-            this.configuraciónToolStripMenuItem.Name = "configuraciónToolStripMenuItem";
-            this.configuraciónToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
-            this.configuraciónToolStripMenuItem.Text = "Configuración";
-            // 
-            // reportesToolStripMenuItem
-            // 
-            this.reportesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuPpalReportes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ventasRealizadasToolStripMenuItem,
             this.registroDeVentasToolStripMenuItem,
             this.facturasToolStripMenuItem,
             this.inventarioToolStripMenuItem,
             this.logsToolStripMenuItem});
-            this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
-            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
-            this.reportesToolStripMenuItem.Text = "Reportes";
+            this.MenuPpalReportes.Name = "MenuPpalReportes";
+            this.MenuPpalReportes.Size = new System.Drawing.Size(65, 20);
+            this.MenuPpalReportes.Text = "Reportes";
             // 
             // ventasRealizadasToolStripMenuItem
             // 
@@ -437,33 +417,33 @@
             this.logsToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.logsToolStripMenuItem.Text = "Logs";
             // 
-            // ayudaToolStripMenuItem
+            // MenuPpalAyuda
             // 
-            this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuPpalAyuda.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.verAyudaToolStripMenuItem,
             this.datosTécnicosDelSistemaToolStripMenuItem,
             this.acercaDeFHITRSistemaCentralToolStripMenuItem,
             this.reportarErrorToolStripMenuItem1});
-            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.ayudaToolStripMenuItem.Text = "Ayuda";
+            this.MenuPpalAyuda.Name = "MenuPpalAyuda";
+            this.MenuPpalAyuda.Size = new System.Drawing.Size(53, 20);
+            this.MenuPpalAyuda.Text = "Ayuda";
             // 
             // verAyudaToolStripMenuItem
             // 
             this.verAyudaToolStripMenuItem.Name = "verAyudaToolStripMenuItem";
-            this.verAyudaToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
+            this.verAyudaToolStripMenuItem.Size = new System.Drawing.Size(266, 22);
             this.verAyudaToolStripMenuItem.Text = "Ver ayuda";
             // 
             // datosTécnicosDelSistemaToolStripMenuItem
             // 
             this.datosTécnicosDelSistemaToolStripMenuItem.Name = "datosTécnicosDelSistemaToolStripMenuItem";
-            this.datosTécnicosDelSistemaToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
-            this.datosTécnicosDelSistemaToolStripMenuItem.Text = "Datos técnicos del sistema";
+            this.datosTécnicosDelSistemaToolStripMenuItem.Size = new System.Drawing.Size(266, 22);
+            this.datosTécnicosDelSistemaToolStripMenuItem.Text = "Requerimientos técnicos del sistema";
             // 
             // acercaDeFHITRSistemaCentralToolStripMenuItem
             // 
             this.acercaDeFHITRSistemaCentralToolStripMenuItem.Name = "acercaDeFHITRSistemaCentralToolStripMenuItem";
-            this.acercaDeFHITRSistemaCentralToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
+            this.acercaDeFHITRSistemaCentralToolStripMenuItem.Size = new System.Drawing.Size(266, 22);
             this.acercaDeFHITRSistemaCentralToolStripMenuItem.Text = "Acerca de FHITR Sistema central";
             // 
             // panel1
@@ -496,39 +476,23 @@
             // reportarErrorToolStripMenuItem1
             // 
             this.reportarErrorToolStripMenuItem1.Name = "reportarErrorToolStripMenuItem1";
-            this.reportarErrorToolStripMenuItem1.Size = new System.Drawing.Size(243, 22);
+            this.reportarErrorToolStripMenuItem1.Size = new System.Drawing.Size(266, 22);
             this.reportarErrorToolStripMenuItem1.Text = "Reportar error";
             // 
-            // configuraciónDeConexiónToolStripMenuItem
+            // PanelContenedor
             // 
-            this.configuraciónDeConexiónToolStripMenuItem.Name = "configuraciónDeConexiónToolStripMenuItem";
-            this.configuraciónDeConexiónToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
-            this.configuraciónDeConexiónToolStripMenuItem.Text = "Configuración de conexión";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.Control;
-            this.panel4.Controls.Add(this.PanelFacturacion);
-            this.panel4.Controls.Add(this.PanelAdministración);
-            this.panel4.Controls.Add(this.PanelReportes);
-            this.panel4.Controls.Add(this.PanelInventario);
-            this.panel4.Controls.Add(this.PanelConfiguracion);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(205, 24);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1095, 656);
-            this.panel4.TabIndex = 3;
-            // 
-            // toolStripButton2
-            // 
-            this.toolStripButton2.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripButton2.ForeColor = System.Drawing.Color.Black;
-            this.toolStripButton2.Image = global::Vista.Properties.Resources.wifi_signal_waves;
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(114, 22);
-            this.toolStripButton2.Text = "Probar conexión";
+            this.PanelContenedor.BackColor = System.Drawing.SystemColors.Control;
+            this.PanelContenedor.Controls.Add(this.PanelFacturacion);
+            this.PanelContenedor.Controls.Add(this.PanelAdministración);
+            this.PanelContenedor.Controls.Add(this.PanelReportes);
+            this.PanelContenedor.Controls.Add(this.PanelInventario);
+            this.PanelContenedor.Controls.Add(this.PanelProductos);
+            this.PanelContenedor.Controls.Add(this.PanelConfiguracion);
+            this.PanelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelContenedor.Location = new System.Drawing.Point(205, 24);
+            this.PanelContenedor.Name = "PanelContenedor";
+            this.PanelContenedor.Size = new System.Drawing.Size(1095, 656);
+            this.PanelContenedor.TabIndex = 3;
             // 
             // toolStripLabel3
             // 
@@ -542,8 +506,8 @@
             this.Lblusuario.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.Lblusuario.ForeColor = System.Drawing.Color.Green;
             this.Lblusuario.Name = "Lblusuario";
-            this.Lblusuario.Size = new System.Drawing.Size(92, 22);
-            this.Lblusuario.Text = "toolStripLabel4";
+            this.Lblusuario.Size = new System.Drawing.Size(10, 22);
+            this.Lblusuario.Text = ".";
             // 
             // toolStripLabel5
             // 
@@ -557,8 +521,8 @@
             this.LblNombre.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.LblNombre.ForeColor = System.Drawing.Color.Green;
             this.LblNombre.Name = "LblNombre";
-            this.LblNombre.Size = new System.Drawing.Size(92, 22);
-            this.LblNombre.Text = "toolStripLabel6";
+            this.LblNombre.Size = new System.Drawing.Size(10, 22);
+            this.LblNombre.Text = ".";
             // 
             // toolStripLabel7
             // 
@@ -572,15 +536,15 @@
             this.LblAcceso.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.LblAcceso.ForeColor = System.Drawing.Color.Green;
             this.LblAcceso.Name = "LblAcceso";
-            this.LblAcceso.Size = new System.Drawing.Size(92, 22);
-            this.LblAcceso.Text = "toolStripLabel8";
+            this.LblAcceso.Size = new System.Drawing.Size(10, 22);
+            this.LblAcceso.Text = ".";
             // 
             // PanelConfiguracion
             // 
             this.PanelConfiguracion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.PanelConfiguracion.Controls.Add(this.button7);
             this.PanelConfiguracion.Controls.Add(this.button6);
-            this.PanelConfiguracion.Location = new System.Drawing.Point(16, 12);
+            this.PanelConfiguracion.Location = new System.Drawing.Point(224, 164);
             this.PanelConfiguracion.Name = "PanelConfiguracion";
             this.PanelConfiguracion.Size = new System.Drawing.Size(199, 69);
             this.PanelConfiguracion.TabIndex = 0;
@@ -588,45 +552,52 @@
             // PanelAdministración
             // 
             this.PanelAdministración.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.PanelAdministración.Controls.Add(this.button9);
-            this.PanelAdministración.Controls.Add(this.button8);
-            this.PanelAdministración.Location = new System.Drawing.Point(222, 12);
+            this.PanelAdministración.Controls.Add(this.BtnSucursales);
+            this.PanelAdministración.Controls.Add(this.BtnEmpleados);
+            this.PanelAdministración.Location = new System.Drawing.Point(14, 12);
             this.PanelAdministración.Name = "PanelAdministración";
-            this.PanelAdministración.Size = new System.Drawing.Size(199, 100);
+            this.PanelAdministración.Size = new System.Drawing.Size(199, 70);
             this.PanelAdministración.TabIndex = 0;
             // 
-            // PanelInventario
+            // PanelProductos
             // 
-            this.PanelInventario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.PanelInventario.Controls.Add(this.button11);
-            this.PanelInventario.Controls.Add(this.button10);
-            this.PanelInventario.Location = new System.Drawing.Point(16, 118);
-            this.PanelInventario.Name = "PanelInventario";
-            this.PanelInventario.Size = new System.Drawing.Size(199, 100);
-            this.PanelInventario.TabIndex = 0;
+            this.PanelProductos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.PanelProductos.Controls.Add(this.BtnCategorias);
+            this.PanelProductos.Controls.Add(this.BtnRegProductos);
+            this.PanelProductos.Location = new System.Drawing.Point(224, 12);
+            this.PanelProductos.Name = "PanelProductos";
+            this.PanelProductos.Size = new System.Drawing.Size(199, 70);
+            this.PanelProductos.TabIndex = 0;
             // 
             // PanelFacturacion
             // 
             this.PanelFacturacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.PanelFacturacion.Location = new System.Drawing.Point(222, 118);
+            this.PanelFacturacion.Controls.Add(this.BtnFacturar);
+            this.PanelFacturacion.Controls.Add(this.BtnFactDia);
+            this.PanelFacturacion.Location = new System.Drawing.Point(224, 88);
             this.PanelFacturacion.Name = "PanelFacturacion";
-            this.PanelFacturacion.Size = new System.Drawing.Size(199, 100);
+            this.PanelFacturacion.Size = new System.Drawing.Size(199, 70);
             this.PanelFacturacion.TabIndex = 0;
             // 
             // PanelReportes
             // 
             this.PanelReportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.PanelReportes.Location = new System.Drawing.Point(16, 224);
+            this.PanelReportes.Controls.Add(this.BtnRepInv);
+            this.PanelReportes.Controls.Add(this.BtnRepFactPeriodo);
+            this.PanelReportes.Controls.Add(this.BtnRepFactDia);
+            this.PanelReportes.Controls.Add(this.BtnRepVentas);
+            this.PanelReportes.Controls.Add(this.BtnRepCompras);
+            this.PanelReportes.Location = new System.Drawing.Point(14, 164);
             this.PanelReportes.Name = "PanelReportes";
-            this.PanelReportes.Size = new System.Drawing.Size(199, 100);
+            this.PanelReportes.Size = new System.Drawing.Size(199, 167);
             this.PanelReportes.TabIndex = 0;
             // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(52)))), ((int)(((byte)(74)))));
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.White;
@@ -642,8 +613,8 @@
             // 
             this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
             this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(52)))), ((int)(((byte)(74)))));
+            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.White;
@@ -655,73 +626,434 @@
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button7.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // BtnEmpleados
             // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(2, 2);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(195, 33);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "      Admon. Empleados";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.UseVisualStyleBackColor = false;
+            this.BtnEmpleados.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnEmpleados.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnEmpleados.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(52)))), ((int)(((byte)(74)))));
+            this.BtnEmpleados.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnEmpleados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEmpleados.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEmpleados.ForeColor = System.Drawing.Color.White;
+            this.BtnEmpleados.Location = new System.Drawing.Point(2, 2);
+            this.BtnEmpleados.Name = "BtnEmpleados";
+            this.BtnEmpleados.Size = new System.Drawing.Size(195, 33);
+            this.BtnEmpleados.TabIndex = 2;
+            this.BtnEmpleados.Text = "      Admon. Empleados";
+            this.BtnEmpleados.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEmpleados.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // BtnSucursales
             // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(2, 34);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(195, 33);
-            this.button9.TabIndex = 2;
-            this.button9.Text = "      Sucursales";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.UseVisualStyleBackColor = false;
+            this.BtnSucursales.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnSucursales.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnSucursales.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(52)))), ((int)(((byte)(74)))));
+            this.BtnSucursales.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnSucursales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnSucursales.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSucursales.ForeColor = System.Drawing.Color.White;
+            this.BtnSucursales.Location = new System.Drawing.Point(2, 34);
+            this.BtnSucursales.Name = "BtnSucursales";
+            this.BtnSucursales.Size = new System.Drawing.Size(195, 33);
+            this.BtnSucursales.TabIndex = 2;
+            this.BtnSucursales.Text = "      Sucursales";
+            this.BtnSucursales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnSucursales.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // BtnRegProductos
             // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
-            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(2, 2);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(195, 33);
-            this.button10.TabIndex = 2;
-            this.button10.Text = "      Inv. General";
-            this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.UseVisualStyleBackColor = false;
+            this.BtnRegProductos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnRegProductos.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnRegProductos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(52)))), ((int)(((byte)(74)))));
+            this.BtnRegProductos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnRegProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnRegProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRegProductos.ForeColor = System.Drawing.Color.White;
+            this.BtnRegProductos.Location = new System.Drawing.Point(2, 2);
+            this.BtnRegProductos.Name = "BtnRegProductos";
+            this.BtnRegProductos.Size = new System.Drawing.Size(195, 33);
+            this.BtnRegProductos.TabIndex = 2;
+            this.BtnRegProductos.Text = "      Registro de productos";
+            this.BtnRegProductos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnRegProductos.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // BtnRepFactPeriodo
             // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
-            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(2, 34);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(195, 33);
-            this.button11.TabIndex = 2;
-            this.button11.Text = "      Inv. Sucursales";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.UseVisualStyleBackColor = false;
+            this.BtnRepFactPeriodo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnRepFactPeriodo.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnRepFactPeriodo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(52)))), ((int)(((byte)(74)))));
+            this.BtnRepFactPeriodo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnRepFactPeriodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnRepFactPeriodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRepFactPeriodo.ForeColor = System.Drawing.Color.White;
+            this.BtnRepFactPeriodo.Location = new System.Drawing.Point(2, 130);
+            this.BtnRepFactPeriodo.Name = "BtnRepFactPeriodo";
+            this.BtnRepFactPeriodo.Size = new System.Drawing.Size(195, 33);
+            this.BtnRepFactPeriodo.TabIndex = 2;
+            this.BtnRepFactPeriodo.Text = "      Fact. periodo";
+            this.BtnRepFactPeriodo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnRepFactPeriodo.UseVisualStyleBackColor = false;
+            // 
+            // BtnFactDia
+            // 
+            this.BtnFactDia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnFactDia.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnFactDia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(52)))), ((int)(((byte)(74)))));
+            this.BtnFactDia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnFactDia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnFactDia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnFactDia.ForeColor = System.Drawing.Color.White;
+            this.BtnFactDia.Location = new System.Drawing.Point(2, 2);
+            this.BtnFactDia.Name = "BtnFactDia";
+            this.BtnFactDia.Size = new System.Drawing.Size(195, 33);
+            this.BtnFactDia.TabIndex = 2;
+            this.BtnFactDia.Text = "      Fact. del dia";
+            this.BtnFactDia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnFactDia.UseVisualStyleBackColor = false;
+            // 
+            // BtnRepCompras
+            // 
+            this.BtnRepCompras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnRepCompras.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnRepCompras.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(52)))), ((int)(((byte)(74)))));
+            this.BtnRepCompras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnRepCompras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnRepCompras.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRepCompras.ForeColor = System.Drawing.Color.White;
+            this.BtnRepCompras.Location = new System.Drawing.Point(2, 2);
+            this.BtnRepCompras.Name = "BtnRepCompras";
+            this.BtnRepCompras.Size = new System.Drawing.Size(195, 33);
+            this.BtnRepCompras.TabIndex = 2;
+            this.BtnRepCompras.Text = "      Reporte de compras";
+            this.BtnRepCompras.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnRepCompras.UseVisualStyleBackColor = false;
+            // 
+            // BtnRepVentas
+            // 
+            this.BtnRepVentas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnRepVentas.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnRepVentas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(52)))), ((int)(((byte)(74)))));
+            this.BtnRepVentas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnRepVentas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnRepVentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRepVentas.ForeColor = System.Drawing.Color.White;
+            this.BtnRepVentas.Location = new System.Drawing.Point(2, 34);
+            this.BtnRepVentas.Name = "BtnRepVentas";
+            this.BtnRepVentas.Size = new System.Drawing.Size(195, 33);
+            this.BtnRepVentas.TabIndex = 2;
+            this.BtnRepVentas.Text = "      Reporte de ventas";
+            this.BtnRepVentas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnRepVentas.UseVisualStyleBackColor = false;
+            // 
+            // BtnRepFactDia
+            // 
+            this.BtnRepFactDia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnRepFactDia.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnRepFactDia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(52)))), ((int)(((byte)(74)))));
+            this.BtnRepFactDia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnRepFactDia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnRepFactDia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRepFactDia.ForeColor = System.Drawing.Color.White;
+            this.BtnRepFactDia.Location = new System.Drawing.Point(2, 66);
+            this.BtnRepFactDia.Name = "BtnRepFactDia";
+            this.BtnRepFactDia.Size = new System.Drawing.Size(195, 33);
+            this.BtnRepFactDia.TabIndex = 2;
+            this.BtnRepFactDia.Text = "      Reporte de facturación diaria";
+            this.BtnRepFactDia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnRepFactDia.UseVisualStyleBackColor = false;
+            // 
+            // BtnRepInv
+            // 
+            this.BtnRepInv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnRepInv.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnRepInv.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(52)))), ((int)(((byte)(74)))));
+            this.BtnRepInv.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnRepInv.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnRepInv.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRepInv.ForeColor = System.Drawing.Color.White;
+            this.BtnRepInv.Location = new System.Drawing.Point(2, 98);
+            this.BtnRepInv.Name = "BtnRepInv";
+            this.BtnRepInv.Size = new System.Drawing.Size(195, 33);
+            this.BtnRepInv.TabIndex = 2;
+            this.BtnRepInv.Text = "      Reporte de inventario";
+            this.BtnRepInv.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnRepInv.UseVisualStyleBackColor = false;
+            // 
+            // toolStripButton2
+            // 
+            this.toolStripButton2.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripButton2.ForeColor = System.Drawing.Color.Black;
+            this.toolStripButton2.Image = global::Vista.Properties.Resources.wifi_signal_waves;
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(114, 22);
+            this.toolStripButton2.Text = "Probar conexión";
+            // 
+            // MenuSistemaConexion
+            // 
+            this.MenuSistemaConexion.Image = global::Vista.Properties.Resources.icons8_settings_32;
+            this.MenuSistemaConexion.Name = "MenuSistemaConexion";
+            this.MenuSistemaConexion.Size = new System.Drawing.Size(218, 22);
+            this.MenuSistemaConexion.Text = "Configuración de conexión";
+            // 
+            // MenuSistemaCerrarSesion
+            // 
+            this.MenuSistemaCerrarSesion.Image = global::Vista.Properties.Resources.sesión_32;
+            this.MenuSistemaCerrarSesion.Name = "MenuSistemaCerrarSesion";
+            this.MenuSistemaCerrarSesion.Size = new System.Drawing.Size(218, 22);
+            this.MenuSistemaCerrarSesion.Text = "Cerrar sesión";
+            // 
+            // MenuSistemaSalir
+            // 
+            this.MenuSistemaSalir.Image = global::Vista.Properties.Resources.Delete;
+            this.MenuSistemaSalir.Name = "MenuSistemaSalir";
+            this.MenuSistemaSalir.Size = new System.Drawing.Size(218, 22);
+            this.MenuSistemaSalir.Text = "Salir";
+            // 
+            // mostrarPanelSidebarToolStripMenuItem
+            // 
+            this.mostrarPanelSidebarToolStripMenuItem.Image = global::Vista.Properties.Resources.menu_button;
+            this.mostrarPanelSidebarToolStripMenuItem.Name = "mostrarPanelSidebarToolStripMenuItem";
+            this.mostrarPanelSidebarToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
+            this.mostrarPanelSidebarToolStripMenuItem.Text = "Esconder barra de menu vertical";
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = global::Vista.Properties.Resources.sabores_de_la_casa;
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton1.Text = "toolStripButton1";
+            // 
+            // BtnCerrar
+            // 
+            this.BtnCerrar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.BtnCerrar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.BtnCerrar.Image = global::Vista.Properties.Resources.cancel_button;
+            this.BtnCerrar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.BtnCerrar.Name = "BtnCerrar";
+            this.BtnCerrar.Size = new System.Drawing.Size(23, 22);
+            this.BtnCerrar.Text = "toolStripButton2";
+            // 
+            // BtnNormal
+            // 
+            this.BtnNormal.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.BtnNormal.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.BtnNormal.Image = global::Vista.Properties.Resources.full_screen_exit;
+            this.BtnNormal.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.BtnNormal.Name = "BtnNormal";
+            this.BtnNormal.Size = new System.Drawing.Size(23, 22);
+            this.BtnNormal.Text = "toolStripButton3";
+            // 
+            // BtnMaximizar
+            // 
+            this.BtnMaximizar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.BtnMaximizar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.BtnMaximizar.Image = global::Vista.Properties.Resources.switch_to_full_screen_button;
+            this.BtnMaximizar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.BtnMaximizar.Name = "BtnMaximizar";
+            this.BtnMaximizar.Size = new System.Drawing.Size(23, 22);
+            this.BtnMaximizar.Text = "toolStripButton4";
+            // 
+            // BtnMinimizar
+            // 
+            this.BtnMinimizar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.BtnMinimizar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.BtnMinimizar.Image = global::Vista.Properties.Resources.round_delete_button;
+            this.BtnMinimizar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.BtnMinimizar.Name = "BtnMinimizar";
+            this.BtnMinimizar.Size = new System.Drawing.Size(23, 22);
+            this.BtnMinimizar.Text = "toolStripButton5";
+            // 
+            // BtnCategorias
+            // 
+            this.BtnCategorias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnCategorias.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnCategorias.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(52)))), ((int)(((byte)(74)))));
+            this.BtnCategorias.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnCategorias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCategorias.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCategorias.ForeColor = System.Drawing.Color.White;
+            this.BtnCategorias.Location = new System.Drawing.Point(2, 34);
+            this.BtnCategorias.Name = "BtnCategorias";
+            this.BtnCategorias.Size = new System.Drawing.Size(195, 33);
+            this.BtnCategorias.TabIndex = 2;
+            this.BtnCategorias.Text = "      Categorias";
+            this.BtnCategorias.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCategorias.UseVisualStyleBackColor = false;
+            // 
+            // PanelInventario
+            // 
+            this.PanelInventario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.PanelInventario.Controls.Add(this.BtnInvSucursal);
+            this.PanelInventario.Controls.Add(this.BtnInvGeneral);
+            this.PanelInventario.Location = new System.Drawing.Point(14, 88);
+            this.PanelInventario.Name = "PanelInventario";
+            this.PanelInventario.Size = new System.Drawing.Size(199, 70);
+            this.PanelInventario.TabIndex = 0;
+            // 
+            // BtnInvSucursal
+            // 
+            this.BtnInvSucursal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnInvSucursal.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnInvSucursal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(52)))), ((int)(((byte)(74)))));
+            this.BtnInvSucursal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnInvSucursal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnInvSucursal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnInvSucursal.ForeColor = System.Drawing.Color.White;
+            this.BtnInvSucursal.Location = new System.Drawing.Point(2, 34);
+            this.BtnInvSucursal.Name = "BtnInvSucursal";
+            this.BtnInvSucursal.Size = new System.Drawing.Size(195, 33);
+            this.BtnInvSucursal.TabIndex = 2;
+            this.BtnInvSucursal.Text = "      Inv. Sucursales";
+            this.BtnInvSucursal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnInvSucursal.UseVisualStyleBackColor = false;
+            // 
+            // BtnInvGeneral
+            // 
+            this.BtnInvGeneral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnInvGeneral.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnInvGeneral.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(52)))), ((int)(((byte)(74)))));
+            this.BtnInvGeneral.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnInvGeneral.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnInvGeneral.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnInvGeneral.ForeColor = System.Drawing.Color.White;
+            this.BtnInvGeneral.Location = new System.Drawing.Point(2, 2);
+            this.BtnInvGeneral.Name = "BtnInvGeneral";
+            this.BtnInvGeneral.Size = new System.Drawing.Size(195, 33);
+            this.BtnInvGeneral.TabIndex = 2;
+            this.BtnInvGeneral.Text = "      Inv. General";
+            this.BtnInvGeneral.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnInvGeneral.UseVisualStyleBackColor = false;
+            // 
+            // BtnGestionProductos
+            // 
+            this.BtnGestionProductos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(99)))), ((int)(((byte)(207)))));
+            this.BtnGestionProductos.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnGestionProductos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnGestionProductos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnGestionProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnGestionProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnGestionProductos.ForeColor = System.Drawing.Color.White;
+            this.BtnGestionProductos.Location = new System.Drawing.Point(3, 39);
+            this.BtnGestionProductos.Name = "BtnGestionProductos";
+            this.BtnGestionProductos.Size = new System.Drawing.Size(199, 35);
+            this.BtnGestionProductos.TabIndex = 2;
+            this.BtnGestionProductos.Text = "Gestión de productos";
+            this.BtnGestionProductos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnGestionProductos.UseVisualStyleBackColor = false;
+            // 
+            // MenuAdmonEmpleados
+            // 
+            this.MenuAdmonEmpleados.Name = "MenuAdmonEmpleados";
+            this.MenuAdmonEmpleados.Size = new System.Drawing.Size(152, 22);
+            this.MenuAdmonEmpleados.Text = "Empleados";
+            // 
+            // MenuAdmonSucursales
+            // 
+            this.MenuAdmonSucursales.Name = "MenuAdmonSucursales";
+            this.MenuAdmonSucursales.Size = new System.Drawing.Size(152, 22);
+            this.MenuAdmonSucursales.Text = "Sucursales";
+            // 
+            // MenuGestion
+            // 
+            this.MenuGestion.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuGestionRegProductos,
+            this.MenuGestCategorias});
+            this.MenuGestion.Name = "MenuGestion";
+            this.MenuGestion.Size = new System.Drawing.Size(243, 22);
+            this.MenuGestion.Text = "Gestión de productos";
+            // 
+            // MenuGestionRegProductos
+            // 
+            this.MenuGestionRegProductos.Name = "MenuGestionRegProductos";
+            this.MenuGestionRegProductos.Size = new System.Drawing.Size(190, 22);
+            this.MenuGestionRegProductos.Text = "Registro de productos";
+            // 
+            // MenuGestCategorias
+            // 
+            this.MenuGestCategorias.Name = "MenuGestCategorias";
+            this.MenuGestCategorias.Size = new System.Drawing.Size(190, 22);
+            this.MenuGestCategorias.Text = "Categorias";
+            // 
+            // MenuInvGeneral
+            // 
+            this.MenuInvGeneral.Name = "MenuInvGeneral";
+            this.MenuInvGeneral.Size = new System.Drawing.Size(152, 22);
+            this.MenuInvGeneral.Text = "General";
+            // 
+            // MenuInvSucursal
+            // 
+            this.MenuInvSucursal.Name = "MenuInvSucursal";
+            this.MenuInvSucursal.Size = new System.Drawing.Size(152, 22);
+            this.MenuInvSucursal.Text = "Por sucursal";
+            // 
+            // MenuFactPeriodo
+            // 
+            this.MenuFactPeriodo.Name = "MenuFactPeriodo";
+            this.MenuFactPeriodo.Size = new System.Drawing.Size(162, 22);
+            this.MenuFactPeriodo.Text = "Periodo definido";
+            // 
+            // MenuFactDia
+            // 
+            this.MenuFactDia.Name = "MenuFactDia";
+            this.MenuFactDia.Size = new System.Drawing.Size(162, 22);
+            this.MenuFactDia.Text = "Del dia";
+            // 
+            // MenuRepLibroCompras
+            // 
+            this.MenuRepLibroCompras.Name = "MenuRepLibroCompras";
+            this.MenuRepLibroCompras.Size = new System.Drawing.Size(245, 22);
+            this.MenuRepLibroCompras.Text = "Libro de compras";
+            // 
+            // MenuRepLibroVentas
+            // 
+            this.MenuRepLibroVentas.Name = "MenuRepLibroVentas";
+            this.MenuRepLibroVentas.Size = new System.Drawing.Size(245, 22);
+            this.MenuRepLibroVentas.Text = "Libro de ventas";
+            // 
+            // MenuRepFactDia
+            // 
+            this.MenuRepFactDia.Name = "MenuRepFactDia";
+            this.MenuRepFactDia.Size = new System.Drawing.Size(245, 22);
+            this.MenuRepFactDia.Text = "Facturación diaria";
+            // 
+            // MenuRepInvGral
+            // 
+            this.MenuRepInvGral.Name = "MenuRepInvGral";
+            this.MenuRepInvGral.Size = new System.Drawing.Size(245, 22);
+            this.MenuRepInvGral.Text = "Inventario general";
+            // 
+            // configuraciónDelSistemaToolStripMenuItem
+            // 
+            this.configuraciónDelSistemaToolStripMenuItem.Name = "configuraciónDelSistemaToolStripMenuItem";
+            this.configuraciónDelSistemaToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.configuraciónDelSistemaToolStripMenuItem.Text = "Configuración del sistema";
+            // 
+            // BtnFacturar
+            // 
+            this.BtnFacturar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnFacturar.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnFacturar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(52)))), ((int)(((byte)(74)))));
+            this.BtnFacturar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnFacturar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnFacturar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnFacturar.ForeColor = System.Drawing.Color.White;
+            this.BtnFacturar.Location = new System.Drawing.Point(2, 34);
+            this.BtnFacturar.Name = "BtnFacturar";
+            this.BtnFacturar.Size = new System.Drawing.Size(195, 33);
+            this.BtnFacturar.TabIndex = 2;
+            this.BtnFacturar.Text = "      Facturar";
+            this.BtnFacturar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnFacturar.UseVisualStyleBackColor = false;
+            // 
+            // MenuRepFactFechas
+            // 
+            this.MenuRepFactFechas.Name = "MenuRepFactFechas";
+            this.MenuRepFactFechas.Size = new System.Drawing.Size(245, 22);
+            this.MenuRepFactFechas.Text = "Facturación por fechas definidas";
             // 
             // FrmContenedor
             // 
@@ -738,6 +1070,7 @@
             this.Name = "FrmContenedor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmContenedor";
+            this.Load += new System.EventHandler(this.FrmContenedor_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -747,9 +1080,12 @@
             this.menuStrip1.PerformLayout();
             this.toolStrip2.ResumeLayout(false);
             this.toolStrip2.PerformLayout();
-            this.panel4.ResumeLayout(false);
+            this.PanelContenedor.ResumeLayout(false);
             this.PanelConfiguracion.ResumeLayout(false);
             this.PanelAdministración.ResumeLayout(false);
+            this.PanelProductos.ResumeLayout(false);
+            this.PanelFacturacion.ResumeLayout(false);
+            this.PanelReportes.ResumeLayout(false);
             this.PanelInventario.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -765,19 +1101,19 @@
         private System.Windows.Forms.ToolStripLabel toolStripLabel2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem sistemaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem MenuPpalSistema;
+        private System.Windows.Forms.ToolStripMenuItem MenuSistemaCerrarSesion;
+        private System.Windows.Forms.ToolStripMenuItem MenuSistemaSalir;
+        private System.Windows.Forms.ToolStripMenuItem MenuPpalMenu;
         private System.Windows.Forms.ToolStripMenuItem mostrarPanelSidebarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem MenuPpalReportes;
         private System.Windows.Forms.ToolStripMenuItem ventasRealizadasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registroDeVentasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem facturasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem historialToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem delDiaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem inventarioToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem MenuPpalAyuda;
         private System.Windows.Forms.ToolStripMenuItem verAyudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem datosTécnicosDelSistemaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem acercaDeFHITRSistemaCentralToolStripMenuItem;
@@ -787,21 +1123,21 @@
         private System.Windows.Forms.ToolStripButton BtnMinimizar;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.ToolStripMenuItem logsToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ToolStripMenuItem administraciónDeEmpleadosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem inventarioToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem facturaciónToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem configuraciónToolStripMenuItem;
+        private System.Windows.Forms.Button BtnConfiguracion;
+        private System.Windows.Forms.Button BtnReportes;
+        private System.Windows.Forms.Button BtnFacturacion;
+        private System.Windows.Forms.Button BtnInventario;
+        private System.Windows.Forms.Button BtnAdministracion;
+        private System.Windows.Forms.ToolStripMenuItem MenuAdministracion;
+        private System.Windows.Forms.ToolStripMenuItem MenuInventario;
+        private System.Windows.Forms.ToolStripMenuItem MenuFacturacion;
+        private System.Windows.Forms.ToolStripMenuItem MenuReportes;
+        private System.Windows.Forms.ToolStripMenuItem MenuConfiguracion;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ToolStrip toolStrip2;
-        private System.Windows.Forms.ToolStripMenuItem configuraciónDeConexiónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem MenuSistemaConexion;
         private System.Windows.Forms.ToolStripMenuItem reportarErrorToolStripMenuItem1;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel PanelContenedor;
         private System.Windows.Forms.ToolStripButton toolStripButton2;
         private System.Windows.Forms.ToolStripLabel toolStripLabel3;
         private System.Windows.Forms.ToolStripLabel Lblusuario;
@@ -812,13 +1148,39 @@
         private System.Windows.Forms.Panel PanelFacturacion;
         private System.Windows.Forms.Panel PanelAdministración;
         private System.Windows.Forms.Panel PanelReportes;
-        private System.Windows.Forms.Panel PanelInventario;
+        private System.Windows.Forms.Panel PanelProductos;
         private System.Windows.Forms.Panel PanelConfiguracion;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button BtnSucursales;
+        private System.Windows.Forms.Button BtnEmpleados;
+        private System.Windows.Forms.Button BtnRegProductos;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button BtnFactDia;
+        private System.Windows.Forms.Button BtnRepFactPeriodo;
+        private System.Windows.Forms.Button BtnRepInv;
+        private System.Windows.Forms.Button BtnRepFactDia;
+        private System.Windows.Forms.Button BtnRepVentas;
+        private System.Windows.Forms.Button BtnRepCompras;
+        private System.Windows.Forms.Button BtnCategorias;
+        private System.Windows.Forms.Panel PanelInventario;
+        private System.Windows.Forms.Button BtnInvSucursal;
+        private System.Windows.Forms.Button BtnInvGeneral;
+        private System.Windows.Forms.Button BtnGestionProductos;
+        private System.Windows.Forms.ToolStripMenuItem MenuAdmonEmpleados;
+        private System.Windows.Forms.ToolStripMenuItem MenuAdmonSucursales;
+        private System.Windows.Forms.ToolStripMenuItem MenuGestion;
+        private System.Windows.Forms.ToolStripMenuItem MenuGestionRegProductos;
+        private System.Windows.Forms.ToolStripMenuItem MenuGestCategorias;
+        private System.Windows.Forms.ToolStripMenuItem MenuInvGeneral;
+        private System.Windows.Forms.ToolStripMenuItem MenuInvSucursal;
+        private System.Windows.Forms.ToolStripMenuItem MenuFactPeriodo;
+        private System.Windows.Forms.ToolStripMenuItem MenuFactDia;
+        private System.Windows.Forms.ToolStripMenuItem MenuRepLibroCompras;
+        private System.Windows.Forms.ToolStripMenuItem MenuRepLibroVentas;
+        private System.Windows.Forms.ToolStripMenuItem MenuRepFactDia;
+        private System.Windows.Forms.ToolStripMenuItem MenuRepInvGral;
+        private System.Windows.Forms.ToolStripMenuItem configuraciónDelSistemaToolStripMenuItem;
+        private System.Windows.Forms.Button BtnFacturar;
+        private System.Windows.Forms.ToolStripMenuItem MenuRepFactFechas;
     }
 }
