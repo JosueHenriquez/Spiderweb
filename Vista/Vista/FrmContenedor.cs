@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Vista
 {
-    public partial class LblUsuario : Form
+    public partial class FrmContenedor : Form
     {
-        public LblUsuario()
+        public FrmContenedor()
         {
             InitializeComponent();
-        }
-
-        private void BtnAccesar_Click(object sender, EventArgs e)
-        {
-            FrmContenedor contenedor = new FrmContenedor();
-            contenedor.Show();
-            this.Hide();
         }
     }
 }

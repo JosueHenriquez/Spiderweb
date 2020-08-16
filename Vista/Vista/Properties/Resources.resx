@@ -118,16 +118,91 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="horizontal-line-remove-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\horizontal-line-remove-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="close-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crop-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crop-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="round-delete-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round-delete-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descarga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chat-bubbles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chat-bubbles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancel-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add-user-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-user-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wifi-signal-waves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wifi-signal-waves.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sabores de la casa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sabores de la casa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="horizontal-line-remove-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\horizontal-line-remove-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="clipboard-paste-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clipboard-paste-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="descarga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descarga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="visibility-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visibility-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="failed-sms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\failed-sms.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="full-screen-exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\full-screen-exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings-cogwheel-inside-black-square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings-cogwheel-inside-black-square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel-button1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancel-button1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close-button1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close-button1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add-button-inside-black-circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-button-inside-black-circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gmail-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gmail-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="create-new-pencil-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\create-new-pencil-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rounded-add-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rounded-add-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="switch-to-full-screen-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\switch-to-full-screen-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bookmark-outline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bookmark-outline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="change-power-options" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\change-power-options.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="attachment-clip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\attachment-clip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backspace-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backspace-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="round-remove-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round-remove-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

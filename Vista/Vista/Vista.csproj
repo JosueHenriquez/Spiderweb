@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmContenedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContenedor.Designer.cs">
+      <DependentUpon>FrmContenedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmContenedor.resx">
+      <DependentUpon>FrmContenedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,6 +100,81 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\descarga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-button-inside-black-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attachment-clip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backspace-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookmark-outline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\change-power-options.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat-bubbles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard-paste-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\create-new-pencil-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crop-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\failed-sms.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\full-screen-exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmail-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round-delete-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rounded-add-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round-remove-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-cogwheel-inside-black-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\switch-to-full-screen-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visibility-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wifi-signal-waves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel-button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

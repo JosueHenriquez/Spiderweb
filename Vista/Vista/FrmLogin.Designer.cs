@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.BtnCerrar = new System.Windows.Forms.ToolStripButton();
+            this.BtnMinimizar = new System.Windows.Forms.ToolStripButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
-            this.BtnCerrar = new System.Windows.Forms.ToolStripButton();
-            this.BtnMinimizar = new System.Windows.Forms.ToolStripButton();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.LblClave = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.BtnAccesar = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.toolStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -66,22 +66,51 @@
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // toolStripLabel1
+            // toolStripButton3
             // 
-            this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(88, 22);
-            this.toolStripLabel1.Text = "Inicio de sesión";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton3.Image = global::Vista.Properties.Resources.sabores_de_la_casa;
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton3.Text = "toolStripButton3";
             // 
             // toolStripLabel2
             // 
             this.toolStripLabel2.Name = "toolStripLabel2";
             this.toolStripLabel2.Size = new System.Drawing.Size(129, 22);
             this.toolStripLabel2.Text = "FHITR - Sistema central";
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripLabel1
+            // 
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(88, 22);
+            this.toolStripLabel1.Text = "Inicio de sesión";
+            // 
+            // BtnCerrar
+            // 
+            this.BtnCerrar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.BtnCerrar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.BtnCerrar.Image = global::Vista.Properties.Resources.close_button;
+            this.BtnCerrar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.BtnCerrar.Name = "BtnCerrar";
+            this.BtnCerrar.Size = new System.Drawing.Size(23, 22);
+            this.BtnCerrar.Text = "toolStripButton1";
+            // 
+            // BtnMinimizar
+            // 
+            this.BtnMinimizar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.BtnMinimizar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.BtnMinimizar.Image = global::Vista.Properties.Resources.horizontal_line_remove_button;
+            this.BtnMinimizar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.BtnMinimizar.Name = "BtnMinimizar";
+            this.BtnMinimizar.Size = new System.Drawing.Size(23, 22);
+            this.BtnMinimizar.Text = "toolStripButton2";
             // 
             // panel1
             // 
@@ -112,45 +141,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton3.Image = global::Vista.Properties.Resources.sabores_de_la_casa;
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton3.Text = "toolStripButton3";
-            // 
-            // BtnCerrar
-            // 
-            this.BtnCerrar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnCerrar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.BtnCerrar.Image = global::Vista.Properties.Resources.close_button;
-            this.BtnCerrar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.BtnCerrar.Name = "BtnCerrar";
-            this.BtnCerrar.Size = new System.Drawing.Size(23, 22);
-            this.BtnCerrar.Text = "toolStripButton1";
-            // 
-            // BtnMinimizar
-            // 
-            this.BtnMinimizar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnMinimizar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.BtnMinimizar.Image = global::Vista.Properties.Resources.horizontal_line_remove_button;
-            this.BtnMinimizar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.BtnMinimizar.Name = "BtnMinimizar";
-            this.BtnMinimizar.Size = new System.Drawing.Size(23, 22);
-            this.BtnMinimizar.Text = "toolStripButton2";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Vista.Properties.Resources.sabores_de_la_casa;
-            this.pictureBox2.Location = new System.Drawing.Point(826, 126);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(93, 80);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
             // 
             // label1
             // 
@@ -186,12 +176,19 @@
             // 
             // BtnAccesar
             // 
+            this.BtnAccesar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(99)))), ((int)(((byte)(207)))));
+            this.BtnAccesar.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.BtnAccesar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnAccesar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(232)))));
+            this.BtnAccesar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAccesar.ForeColor = System.Drawing.Color.White;
             this.BtnAccesar.Location = new System.Drawing.Point(810, 373);
             this.BtnAccesar.Name = "BtnAccesar";
             this.BtnAccesar.Size = new System.Drawing.Size(127, 34);
             this.BtnAccesar.TabIndex = 5;
             this.BtnAccesar.Text = "Iniciar sesión";
-            this.BtnAccesar.UseVisualStyleBackColor = true;
+            this.BtnAccesar.UseVisualStyleBackColor = false;
+            this.BtnAccesar.Click += new System.EventHandler(this.BtnAccesar_Click);
             // 
             // linkLabel1
             // 
@@ -203,6 +200,16 @@
             this.linkLabel1.TabIndex = 6;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "¿Olvido su contraseña?";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Vista.Properties.Resources.sabores_de_la_casa;
+            this.pictureBox2.Location = new System.Drawing.Point(826, 126);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(93, 80);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
             // LblUsuario
             // 
